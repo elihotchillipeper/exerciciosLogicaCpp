@@ -13,7 +13,7 @@ int main (){
     cout << "Digite o 3° número: ";
     cin >> lado3;
 
-    if (lado1 && lado2 < lado3 || lado2 && lado3 < lado1 || lado1 && lado3 < lado2){
+    if (lado1 + lado2 < lado3 || lado2 + lado3 < lado1 || lado1 + lado3 < lado2){
         cout << "Formam triângulo" << endl;
     } else {
         cout << "Não formam" << endl;
