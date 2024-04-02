@@ -4,7 +4,7 @@ using namespace std;
 
 int main (){
 
-    int nota1, nota2, nota3, peso1, peso2, peso3;
+    double nota1, nota2, nota3, peso1, peso2, peso3;
 
     //Notas e pesos
     cout << "Digite a 1° nota: ";
